@@ -1,0 +1,11 @@
+name: Jeong
+version: '1.0-SNAPSHOT'
+main: com.jeong.Jeong
+api-version: 1.17
+authors: [ JeongWoo ]
+description: 정우 플러그인
+commands:
+  mpm:
+    description: /mpm <앞으로 파질 수> <뒤로 파질 수> <위로 파질 수> <아래로 파질 수> <오른쪽으로 파질 수> <왼쪽으로 파질 수>
+  mp:
+    description: /mp <반지름(3의 배수로 입력)>
